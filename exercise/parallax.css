@@ -1,0 +1,251 @@
+.food-body{
+    margin:0;
+    padding:0;
+}
+
+.food-container{
+    width: 100%;
+    height:100vh;
+    z-index: 0;
+        position: relative;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+.food-section{
+    position: relative;
+    top:0;
+    left:0;
+    width: 100vw;
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+.food-item{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width:100vw;
+    height:100vh;
+    border-bottom: 2px solid #000;
+}
+.food-item{
+    position: absolute;top: 0;
+    z-index: -1;
+}
+.food-item-1{
+    
+    clip: rect(0px, 1800px, 800px, 0px);
+}
+.food-item-2{
+    clip: rect(750px, 1300px, 800px, 0px);
+}
+.food-item-3{
+    clip: rect(750px, 1300px, 800px, 0px);
+}
+.food-item-4{
+    clip: rect(780px, 1300px, 800px, 0px);
+}.food-item-5{
+    clip: rect(780px, 1300px, 800px, 0px);
+}.food-item-6{
+    clip: rect(780px, 1300px, 800px, 0px);
+ }
+
+
+.food-img-1 {
+    margin:0;
+    background-image: url("https://im.rediff.com/getahead/2017/aug/02virat.jpg");
+    background-size: cover;
+    width:50%;
+    background-position: center;
+}
+
+@media all and (max-width:800px){ 
+    .img-responsive {
+        background-size:100%;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+}
+    
+
+.food-img-4{
+    margin:0;
+    background-image: url("https://th.bing.com/th/id/OIP.tvy-8G3xjnecffwEwnyUzQHaFN?pid=ImgDet&w=2048&h=1440&rs=1");
+    background-size: cover;
+    width:50%;
+    background-position: center;
+}
+
+.food-img-2 {
+    background-image: url("https://th.bing.com/th/id/R.3063eb458be554dece32511c532aef04?rik=vyPPeojO%2fZebLA&riu=http%3a%2f%2fstatic.dnaindia.com%2fsites%2fdefault%2ffiles%2fstyles%2ffull%2fpublic%2f2018%2f04%2f05%2f668615-mirabai-chanu-commonwealth-games-2018-pti.jpg&ehk=vXV2JAzLoIoZn7cYahQC%2fRwia8dr%2bZSprE%2bPHtIvUOc%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    width:50%;
+    background-position: center;
+}
+
+.food-img-5{
+    background-image: url("https://d.newsweek.com/en/full/1037334/weight-lift-body-building-stock.jpg");
+    background-size: cover;
+    width:50%;
+    background-position: center;
+}
+
+.food-img-3{
+    background-image: url("https://cdn-live.theprint.in/wp-content/uploads/2018/08/2018_8img27_Aug_2018_PTI8_27_2018_000224B-e1535468400445.jpg");
+    background-size:cover;
+    width:50%;
+    background-position: center;
+}
+
+.food-img-6{
+    background-image: url("https://www.wallpapertip.com/wmimgs/76-766156_men-fitness-wallpaper-gym-workout-mens-images-hd.jpg");
+    background-size:cover;
+    width:50%;
+    background-position: center;
+}
+
+.food-detail-1{
+    flex:50%;
+    width:50%;
+    text-align: center;
+    display: block;
+    margin:auto;
+    /* display: flex;
+    align-items: center; */
+    /* justify-self: center; */
+}
+.food-detail-all{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* justify-content: center;
+    align-items: center; */
+    padding:3rem 3rem;
+    padding-left: 2rem;
+    padding-top: 5rem;
+}
+
+.food-detail-text{
+   font-size: 4rem;
+   quotes: "\201C";
+   margin-left: 2rem;
+   margin-bottom: 2rem;
+}
+
+.food-detail-text::after{
+    position: absolute;
+    content:open-quote;
+    top:-1.5rem;
+    right:40rem;
+    line-height: 1;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 15rem;
+    color:#000;
+    z-index:1;
+}
+
+
+.food-detail-text-1{
+    font-size: 3rem;
+    quotes: "\201C";
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+ }
+ 
+
+.food-detail-text-1::after{
+    position: absolute;
+    content:open-quote;
+    top:-1.5rem;
+    margin-bottom: 2rem;
+    left:.5rem;
+    line-height: 1;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 15rem;
+    color:#000;
+    z-index:1;
+}
+
+
+ .trainer-detail{
+     font-size: 1.7rem;
+     word-spacing: .5rem;
+     margin-left: 2rem;
+     quotes: "\201C";
+     color:red;
+ }
+
+ .trainer-detail::after{
+    position: absolute;
+    content:close-quote;
+    bottom:-3rem;
+    right:12rem;
+    line-height: 1;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 15rem;
+    color:#000;
+    z-index:1;
+ }
+
+ .trainer-detail-1{
+    font-size: 1.7rem;
+    word-spacing: .5rem;
+    margin-left: 2rem;
+    quotes: "\201C";
+    color:red;
+}
+
+.trainer-detail-1::after{
+   position: absolute;
+   content:close-quote;
+   bottom:-3rem;
+   left:20rem;
+   line-height: 1;
+   display: inline-block;
+   font-family: sans-serif;
+   font-size: 15rem;
+   color:#000;
+   z-index:1;
+}
+
+.section-1-heading{
+    font-size: 4rem;
+    margin:2rem auto;
+    color:red;
+}
+
+@media all and (max-width:1450px){
+    .trainer-detail::after , .trainer-detail-1::after , .food-detail-text::after , .food-detail-text-1::after{
+         visibility: hidden;
+         display: none;
+    }
+}
+
+@media all and (max-width:1200px){
+    .section-1-heading{
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (max-width:750px){
+    .section-1-heading{
+        font-size: 2rem;
+    }
+}
+
+.section-2-heading{
+    position: relative;
+    font-size:15rem;
+
+z-index: 2000;    color:red;
+    right:3rem;
+    top:2rem;
+}
